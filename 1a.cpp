@@ -7,7 +7,7 @@ int main()
 {
     int a, b, c, D;
     float root1, root2;
-    cout << "Enter the coefficients(a,b,c): " << endl;
+    cout << "Enter the coefficients(a,b,c): ";
     cin >> a >> b >> c;
     D = b * b - 4 * a * c;
     if (D > 0)
